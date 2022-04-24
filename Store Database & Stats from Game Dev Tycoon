@@ -1,0 +1,19 @@
+CREATE TABLE video_games (id INTEGER PRIMARY KEY, Name TEXT, Console TEXT, Rating TEXT, Units_Sold integer, Year_Released integer);
+
+INSERT INTO video_games VALUES (1, "What's Up (There) Doc?", "PC", "E", 17, 2000);
+INSERT INTO video_games VALUES (2, "Rob Blind: Hacker", "PC", "E", 19, 2000);
+INSERT INTO video_games VALUES (3, "S**tkickers", "PC", "E", 113, 2001);
+INSERT INTO video_games VALUES (4, "Peglegs and Parrots", "Playsystem", "M", 47, 2001);
+INSERT INTO video_games VALUES (5, "Britches and Hose", "TES 64", "E", 24000, 2001);
+INSERT INTO video_games VALUES (6, "Balls In: Your Court", "PC", "E", 330, 2002);
+INSERT INTO video_games VALUES (7, "Viva La Dance, Dance, Revolucion", "PC", "E", 232, 2002);
+INSERT INTO video_games VALUES (8, "HYCYB", "PC", "E", 223000, 2002);
+INSERT INTO video_games VALUES (9, "Boy (What) Are Dees??", "Nuu", "E", 4000, 2004);
+INSERT INTO video_games VALUES (10, "What is This Good For: War", "PC", "M", 74000, 2005);
+INSERT INTO video_games VALUES (11, "Of Norse: Absolutely of Norse", "PC", "E", 37, 2000);
+INSERT INTO video_games VALUES (12, "Capes and Crepes: Breaking F.A.S.T.", "Vena Oasis", "E", 54, 1996);
+INSERT INTO video_games VALUES (13, "Bing-Bong: Sing Along", "Gameling", "E", 118, 1999);
+INSERT INTO video_games VALUES (14, "Pro and Con: Battle of Gress", "PC", "E", 39, 2001);
+INSERT INTO video_games VALUES (15, "Gui and Key: Battle of Tars", "PC", "E", 8, 2002);
+
+SELECT * FROM video_games
